@@ -10,13 +10,16 @@
       ul { 
             float: right;
             position: relative;
-            top: 20vh;
+            top: 10vh;
             list-style: none;
             li{ 
-                  a { 
+                margin-top: 2rem;
+                  a {   
+                        text-align: center;
                         color: whitesmoke;
                         text-decoration: none;
                         font-size: 2rem;
+
                         &:hover { 
                               color: yellow;
                         }
@@ -63,12 +66,39 @@
       }
 }
 .mainContentBox { 
-      background: bisque;
-      height: 50vh;
+      background: #FF7D61;
+      height: 100vh;
+      h1 { 
+            padding: 10vh;
+            color: whitesmoke;
+            text-shadow:  2px 2px 2px black;
+            top: 10vh;
+            font-family: myFont;
+      }
+
+      img { 
+         height: 50vh;
+         width: 20vw;
+      }
+
+      p { 
+
+            color: black;
+            font-size: larger;
+      }
+      
 }
 .mainContentBox2 { 
-      background: orange;
+      background: #FFA500;
       height: 100vh;
+      h1 { 
+            padding: 10vh;
+            color: whitesmoke;
+            text-shadow:  2px 2px 2px black;
+            top: 10vh;
+            font-family: myFont;
+      }
+
 }
 .meImage {
       width: 20vw;

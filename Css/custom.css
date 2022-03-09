@@ -11,11 +11,16 @@
 .myNav ul {
   float: right;
   position: relative;
-  top: 20vh;
+  top: 10vh;
   list-style: none;
 }
 
+.myNav ul li {
+  margin-top: 2rem;
+}
+
 .myNav ul li a {
+  text-align: center;
   color: whitesmoke;
   text-decoration: none;
   font-size: 2rem;
@@ -57,13 +62,39 @@
 }
 
 .mainContentBox {
-  background: bisque;
+  background: #FF7D61;
+  height: 100vh;
+}
+
+.mainContentBox h1 {
+  padding: 10vh;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+  top: 10vh;
+  font-family: myFont;
+}
+
+.mainContentBox img {
   height: 50vh;
+  width: 20vw;
+}
+
+.mainContentBox p {
+  color: black;
+  font-size: larger;
 }
 
 .mainContentBox2 {
-  background: orange;
+  background: #FFA500;
   height: 100vh;
+}
+
+.mainContentBox2 h1 {
+  padding: 10vh;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+  top: 10vh;
+  font-family: myFont;
 }
 
 .meImage {
