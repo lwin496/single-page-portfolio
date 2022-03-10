@@ -3,6 +3,10 @@
       font-family: myFont;
       src: url("../Fonts/fonttest.ttf") format("truetype");
   }
+@font-face {
+      font-family: myFont2;
+      src: url(../Fonts/myFont.otf);
+}
   
 //  font-family: 'Shippori Antique B1', sans-serif;
 .myNav { 
@@ -69,22 +73,31 @@
       background: #FF7D61;
       height: 100vh;
       h1 { 
-            padding: 10vh;
+            top: 10vh;
+            position: relative;
+            text-align: center;
+            font-family: myFont;
             color: whitesmoke;
             text-shadow:  2px 2px 2px black;
-            top: 10vh;
-            font-family: myFont;
       }
-
       img { 
-         height: 50vh;
-         width: 20vw;
+            position: relative;
+            top: 15vh   ;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            width: 20vw;
+            height: 50vh;
       }
-
-      p { 
-
-            color: black;
-            font-size: larger;
+      p {   
+            margin: auto;
+            text-align: center;
+            width: 50vw;
+            color: whitesmoke;
+            position: relative;
+            top: 20vh;
+            font-family: myFont2;
       }
       
 }
@@ -92,7 +105,7 @@
       background: #FFA500;
       height: 100vh;
       h1 { 
-            padding: 10vh;
+            text-align: center;
             color: whitesmoke;
             text-shadow:  2px 2px 2px black;
             top: 10vh;
@@ -100,6 +113,10 @@
       }
 
 }
+.mainContentBox3 { 
+      height: 100vh;
+}
+
 .meImage {
       width: 20vw;
       height: 10vh;
